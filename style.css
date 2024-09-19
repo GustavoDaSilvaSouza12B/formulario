@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #6fffe9;  /* Fundo escuro neutro */
+    color: #fff;  /* Texto branco para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-games {
+    background-color: #23272a; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #1e90ff; /* Azul vibrante (inspirado em plataformas como Discord) */
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #003566;  /* Vermelho chamativo */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #40444b; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra leve */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.7); /* Efeito ao focar no input */
+}
+
+.checkbox-games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-games label {
+    flex: 1 1 45%;
+    padding: 10px;
+    background-color: #15616d; /* Cinza claro com leve tom azulado */
+    border-radius: 5px;
+    color: #23272a; /* Texto escuro */
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+.checkbox-games label:hover {
+    background-color: #7289da; /* Azul quando passar o mouse */
+    color: #ffffff; /* Texto branco no hover */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #134074; /* Verde vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 8px rgba(67, 181, 129, 0.5); /* Sombra suave */
+}
+
+button:hover {
+    background-color: #014f86; /* Verde mais escuro no hover */
+    box-shadow: 0 0 12px rgba(67, 181, 129, 0.8); /* Efeito maior no hover */
+}

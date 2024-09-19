@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-games">
+        <h1>Formulário de Preferências de Jogos</h1>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="categoria">Categoria de Jogo Favorita:</label>
+            <select id="categoria" name="categoria">
+                <option value="acao">Ação</option>
+                <option value="aventura">Aventura</option>
+                <option value="estrategia">Estratégia</option>
+                <option value="esportes">Esportes</option>
+                <option value="rpg">RPG</option>
+                <option value="simulacao">Simulação</option>
+                <option value="corrida">Corrida</option>
+                <option value="puzzle">Puzzle</option>
+                <option value="horror">Terror</option>
+                <option value="fps">FPS</option>
+            </select>
+
+            <label for="preferencias">Escolha seus jogos favoritos:</label>
+            <div class="checkbox-games">
+                <label><input type="checkbox" name="jogos" value="god_of_war"> God of War</label>
+                <label><input type="checkbox" name="jogos" value="minecraft"> Minecraft</label>
+                <label><input type="checkbox" name="jogos" value="fortnite"> Fortnite</label>
+                <label><input type="checkbox" name="jogos" value="fifa"> FIFA</label>
+                <label><input type="checkbox" name="jogos" value="valorant"> Valorant</label>
+                <label><input type="checkbox" name="jogos" value="the_evil_within"> The Evil Within</label>
+                <label><input type="checkbox" name="jogos" value="mario"> Mario</label>
+                <label><input type="checkbox" name="jogos" value="overwatch"> Overwatch</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
